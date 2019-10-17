@@ -1,0 +1,18 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Kevin McFarland",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "US",
+    "addressLocality": "Austin",
+    "addressRegion": "Texas",
+    "postalCode": "78748",
+    "streetAddress": "3113 Lynnbrook Drive"
+  },
+  "email": "mcfarke@gmail.com",
+  "telephone": "8645599203",
+  "image": ""
+}
+</script>
