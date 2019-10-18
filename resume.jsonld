@@ -1,4 +1,3 @@
-<script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Person",
@@ -13,23 +12,29 @@
   },
   "email": "mcfarke@gmail.com",
   "telephone": "8645599203",
-  "image": ""
+  "image": "",
+  "jobTitle": "Software Developer",
+  "description": "Blip about me...",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "LinkedIn",
+      "image": "https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg",
+      "url": "https://www.linkedin.com/in/mcfarke/"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "GitHub",
+      "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "url": "https://github.com/mcfarke311"
+    }
+  ],
+  "url": "kevin.mc-far.land"
 }
-</script>
 
 
 TODO:
 {
-  "basics": {
-    "label": "Programmer",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "http://twitter.com/john"
-    }]
-  },
   "work": [{
     "company": "Company",
     "position": "President",
@@ -39,17 +44,6 @@ TODO:
     "summary": "Description...",
     "highlights": [
       "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
     ]
   }],
   "education": [{
@@ -69,13 +63,6 @@ TODO:
     "awarder": "Company",
     "summary": "There is no spoon."
   }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],
   "skills": [{
     "name": "Web Development",
     "level": "Master",
@@ -83,17 +70,6 @@ TODO:
       "HTML",
       "CSS",
       "Javascript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
     ]
   }],
   "references": [{
