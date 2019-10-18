@@ -29,9 +29,62 @@
       "url": "https://github.com/mcfarke311"
     }
   ],
-  "url": "kevin.mc-far.land"
+  "url": "kevin.mc-far.land",
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "degree",
+    "educationalLevel": "Bachelors of Science",
+    "dateCreated": "2015-08",
+    "about": {
+      "@type": "EducationalOccupationalProgram",
+      "name": "Computer Engineering"
+    }
+  },
+  "hasOccupation": [
+    {
+      "@type": "EmployeeRole",
+      "roleName": "Post-Silicon Validation Engineer",
+      "startDate": "2015-06"
+    },
+    {
+      "@type": "EmployeeRole",
+      "roleName": "Computer Technician",
+      "startDate": "2012-08",
+      "endDate": "2015-05"
+    },
+    {
+      "@type": "EmployeeRole",
+      "roleName": "Product Quality Engineer - Intern",
+      "startDate": "2014-05",
+      "endDate": "2014-08"
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Clemson University",
+      "sameAs": "https://www.clemson.edu"
+    },
+    {
+      "@type": "HighSchool",
+      "name": "Seneca High School",
+      "sameAs": "http://shs.oconee.k12.sc.us/"
+    },
+    {
+      "@type": "Organization",
+      "name": "Clemson Computing and Information Technology",
+      "sameAs": "https://ccit.clemson.edu/"
+    },
+    {
+      "@type": "Organization",
+      "name": "Itron",
+      "sameAs": "https://www.itron.com/na/"
+    }
+  ]
 }
 
+Validation Engineers - 17-2199.02
+Computer, Automated Teller, and Office Machine Repairers - 49-2011.00
 
 TODO:
 {
