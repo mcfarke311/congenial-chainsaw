@@ -1,6 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Person",
+  "@id": "#kevin",
   "name": "Kevin McFarland",
   "address": {
     "@type": "PostalAddress",
@@ -19,114 +20,137 @@
     {
       "@type": "ContactPoint",
       "contactType": "LinkedIn",
+      "identifier": "mcfarke",
       "image": "https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg",
       "url": "https://www.linkedin.com/in/mcfarke/"
     },
     {
       "@type": "ContactPoint",
       "contactType": "GitHub",
+      "identifier": "mcfarke311",
       "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       "url": "https://github.com/mcfarke311"
     }
   ],
   "url": "kevin.mc-far.land",
-  "hasCredential": {
-    "@type": "EducationalOccupationalCredential",
-    "credentialCategory": "degree",
-    "educationalLevel": "Bachelors of Science",
-    "dateCreated": "2015-08",
-    "about": {
-      "@type": "EducationalOccupationalProgram",
-      "name": "Computer Engineering"
-    }
-  },
-  "hasOccupation": [
+  "knowsAbout": [
+    "HTML,4",
+    "CSS,2",
+    "JavaScript,2"
+  ],
+  "hasCredential": [
     {
-      "@type": "EmployeeRole",
-      "roleName": "Post-Silicon Validation Engineer",
-      "startDate": "2015-06"
-    },
-    {
-      "@type": "EmployeeRole",
-      "roleName": "Computer Technician",
-      "startDate": "2012-08",
-      "endDate": "2015-05"
-    },
-    {
-      "@type": "EmployeeRole",
-      "roleName": "Product Quality Engineer - Intern",
-      "startDate": "2014-05",
-      "endDate": "2014-08"
+      "@type": "EducationalOccupationalCredential",
+      "aggregateRating": {
+        "@type": "aggregateRating",
+        "ratingValue": "3.51",
+        "name": "GPA"
+      },
+      "credentialCategory": "degree",
+      "educationalLevel": "Bachelors of Science",
+      "dateCreated": "2015-05",
+      "about": {
+        "@type": "EducationalOccupationalProgram",
+        "name": "Computer Engineering"
+      },
+      "recognizedBy": {
+        "@type": "CollegeOrUniversity",
+        "name": "Clemson University",
+        "sameAs": "https://clemson.edu"
+      }
     }
   ],
+  "hasOccupation": {
+    "@type": "EmployeeRole",
+    "roleName": "Post-Silicon Validation Engineer",
+    "hasOccupation": {
+      "@type": "Occupation",
+      "occupationalCategory": "17-2199.02",
+      "skills": [
+        "python,4",
+        "Git,3",
+        "Linux,2",
+        "Windows,4",
+        "Automation,3",
+        "Integration,3",
+        "Idea Fluency,4",
+        "Data Analysis,2"
+      ],
+      "responsibilities": []
+    },
+    "startDate": "2015-06"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Intel Corporation",
+    "sameAs": "https://intel.com"
+  },
+  "award": [
+    "Organizational Achievement Awards Q3'17, Q2'19, Q3'19",
+    "Divisional Recognition Award Q1'19",
+    "Dean's List: Spring '12,'14; Fall '13",
+    "President's List: Spring '13; Fall '14",
+    "Eagle Scout Leadership Service Award 2011"
+    ],
   "alumniOf": [
-    {
-      "@type": "CollegeOrUniversity",
-      "name": "Clemson University",
-      "sameAs": "https://www.clemson.edu"
-    },
-    {
-      "@type": "HighSchool",
-      "name": "Seneca High School",
-      "sameAs": "http://shs.oconee.k12.sc.us/"
-    },
     {
       "@type": "Organization",
       "name": "Clemson Computing and Information Technology",
-      "sameAs": "https://ccit.clemson.edu/"
+      "sameAs": "https://ccit.clemson.edu/",
+      "employee": {
+        "@type": "Person",
+        "hasOccupation": {
+          "@type": "EmployeeRole",
+          "roleName": "Computer Consultant",
+          "hasOccupation": {
+            "@type": "Occupation",
+            "occupationalCategory": "49-2011.00",
+            "skills": [
+              "Active Listening and Effective Speaking,4",
+              "Troubleshooting,3"
+            ],
+            "responsibilities": [
+              "Confer with users to assess problems",
+              "Train users on use of common software",
+              "Install, troubleshoot, and repair software",
+              "Diagnose hardware issues"
+            ]
+          },
+          "startDate": "2012-08",
+          "endDate": "2015-05"
+        },
+        "sameAs": "#kevin"
+      }
     },
     {
       "@type": "Organization",
       "name": "Itron",
-      "sameAs": "https://www.itron.com/na/"
+      "sameAs": "https://www.itron.com/na/",
+      "employee": {
+        "@type": "Person",
+        "hasOccupation": {
+          "@type": "EmployeeRole",
+          "roleName": "Product Quality Engineer - Intern",
+          "hasOccupation": {
+            "@type": "Occupation",
+            "occupationalCategory": "17-2199.02",
+            "skills": [
+              "VBA,2",
+              "Excel,3",
+              "Debugging,3"
+            ],
+            "responsibilities": [
+              "Perform Automated and Manual Tests",
+              "Manage, Record, Organize, Interpret, and Report Results",
+              "Automate graph visualizations of test results for presentations",
+              "Maintain and Monitor test environment"
+            ]
+          },
+          "startDate": "2014-05",
+          "endDate": "2014-08"
+        },
+        "sameAs": "#kevin"
+      }
     }
   ]
-}
-
-Validation Engineers - 17-2199.02
-Computer, Automated Teller, and Office Machine Repairers - 49-2011.00
-
-TODO:
-{
-  "work": [{
-    "company": "Company",
-    "position": "President",
-    "website": "http://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
-  }]
 }
