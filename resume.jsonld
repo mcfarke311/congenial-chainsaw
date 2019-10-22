@@ -26,6 +26,13 @@
     },
     {
       "@type": "ContactPoint",
+      "contactType": "StackOverflow",
+      "identifier": "mcfarke311",
+      "image": "https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg",
+      "url": "https://stackoverflow.com/users/story/4062241"
+    },
+    {
+      "@type": "ContactPoint",
       "contactType": "GitHub",
       "identifier": "mcfarke311",
       "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
