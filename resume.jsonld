@@ -43,7 +43,9 @@
   "knowsAbout": [
     "HTML,4",
     "CSS,2",
-    "JavaScript,2"
+    "JavaScript,2",
+    "Python,4",
+    "Bash,2"
   ],
   "hasCredential": [
     {
